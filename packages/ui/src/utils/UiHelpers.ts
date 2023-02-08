@@ -86,8 +86,8 @@ export function getChainIcon(chainId: number) {
     // Polygon Mumbai Testnet
     80001: '41d04d42-da3b-4453-8506-668cc0727900'
   }
-
-  return `${cdn}/${presets[chainId] ?? fallback}?projectId=${projectId}`
+ return `https://s2.coinmarketcap.com/static/img/coins/64x64/1.png`
+  //return `${cdn}/${presets[chainId] ?? fallback}?projectId=${projectId}`
 }
 
 export function getWalletFirstName(fullName: string) {
